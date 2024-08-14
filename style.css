@@ -1,0 +1,276 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url(11th\ Assignment\ Web\ &\ App\ \(CSS\)\ Image\ 1.png);
+    color: white;
+    font-family: sans-serif;
+    overflow-x: hidden;
+}
+header{
+    color: #f99d1b;
+    padding: 0 60px;
+    font-weight: 600;
+    border-bottom: 3px solid #CB6F18;
+    box-shadow: 0 0 25px #f99d1b;
+}
+.header-image-1{
+    width: 50px;
+    display: inline-block;
+}
+header>.List-1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    margin-top: -3%;
+    margin-left: -20% !important;
+}
+header>.List-1>a{
+    text-decoration: none;
+}
+header>.List-1>a>li{
+    margin-left: 30px;
+    cursor: pointer;
+    border-radius: 10px;
+    padding: 8px 20px;
+    color: #f99d1b;
+}
+
+header>.List-1>a>li:hover{
+    background-color: #421509;
+    border: 3px solid #f99d1b;
+    box-shadow: 0 0 15px #f99d1b;
+}
+.List-2{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    list-style: none;
+    margin-top: -4%;
+}
+.List-2>div>a>li{
+    padding: 5px;
+    background-color: #f99d1b;
+}
+.List-2>div>a>li:hover{
+    background-color: black;
+    box-shadow: 0 0 10px #f99d1b;
+}
+.List-2>div>a>li>svg{
+    width: 20px;
+    height: 20px;
+    fill: white !important;
+}
+.List-2>div{
+    margin-left: 2%;
+}
+.Main-Div{
+    margin-left: 7%;
+    margin-top: 4%;
+    width: 30%;
+}
+.Main-Div>h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    animation-name: Heading;
+    animation-duration: 1s;
+    animation-delay: 0s;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+}
+@keyframes Heading{
+    From{
+         margin-left: -30%;
+    }
+    to{
+         margin-left: 0%;
+    }
+}
+.Main-Div>p{
+    animation-name: Para;
+    animation-duration: 1s;
+    animation-delay: 1s;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+    margin-left: -400%;
+    width: 70%;
+}
+@keyframes Para{
+    From{
+         margin-left: -60%;
+    }
+    To{
+         margin-left: 0%;
+    }
+}
+.Main-Div>button{
+    margin-top: 5%;
+    background-color: #f99d1b;
+    border: 3px solid white;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    color: white;
+    padding: 10px 40px;
+    cursor: pointer;
+    animation-name: Heading;
+    animation-duration: 1s;
+    animation-delay: 2s;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+    margin-left: -100%;
+}
+@keyframes Button{
+    From{
+         margin-left: -60%;
+    }
+    To{
+         margin-left: 0%;
+    }
+}
+.Main-Div>button:hover{
+    background-color: #421509;
+    box-shadow: 0 0 50px #f99d1b;
+}
+.Main-Div-2{
+    margin-right: -60%;
+    margin-top: -33%;
+    float: right;
+    animation-name: Image;
+    animation-duration: 1s;
+    animation-delay: 1s;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+}
+@keyframes Image{
+    From{
+         margin-right: -30%;
+    }
+    To{
+         margin-right: 10%;
+    }
+}
+.Main-Div-2>img{
+    width: 330px;
+    height: 500px;
+}
+.Leaf-1{
+    animation-name: Leaf1;
+    animation-duration: 3s;
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: unset;
+    animation-direction: normal;
+}
+@keyframes Leaf1{
+    From{
+         left: 60%;
+         bottom: 10%;
+    }
+    To{
+         left: 7%;
+         bottom: 75%;
+    }
+}
+.Leaf-2{
+    animation-name: Leaf2;
+    animation-duration: 2s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: unset;
+}
+@keyframes Leaf2{
+    From{
+         transform: scale(0);
+    }
+    To{
+         transform: scale(1);
+    }
+}
+.Bee-Image-1{
+    width: 10%;
+    position: absolute;
+    margin-left: -10%;
+    margin-top: -5%;
+    animation-name: bee-1;
+    animation-duration: 8s;
+    animation-delay: 0.3s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: both;
+    animation-direction: alternate;
+}
+.Bee-Image-2{
+    width: 10%;
+    position: absolute;
+    margin-top: 47%;
+    margin-left: 40%;
+    animation-name: bee-2;
+    animation-duration: 8s;
+    animation-delay: 0.3s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: both ;
+    animation-direction: alternate
+}
+.Bee-Image-3{
+    width: 5%;
+    position: absolute;
+    margin-top: 47%;
+    margin-left: 40%;
+    animation-name: bee-3;
+    animation-duration: 8s;
+    animation-delay: 0.3s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: both;
+    animation-direction: alternate;
+    margin-right: 20%;
+}
+.Bee-Image-4{
+    width: 5%;
+    position: absolute;
+    animation-name: bee-4;
+    animation-duration: 8s;
+    animation-delay: 0.3s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: both;
+    animation-direction: alternate;
+    margin-left: 100%;
+}
+@keyframes bee-1{
+    From{
+         margin-left: -10%;
+    }
+    To{
+         margin-left: 80%;
+         margin-top: 35%;
+    }
+}
+@keyframes bee-2{
+    From{
+
+    }
+    To{
+         margin-top: 0%;
+    }
+}
+@keyframes bee-3{
+    From{
+
+    }
+    To{
+         margin-top: 0%;
+         margin-left: 85%;
+    }
+}
+@keyframes bee-4{
+    From{
+         margin-left: 100%;
+    }
+    To{
+         margin-left: 0;
+         margin-top: 20%;
+    }
+}
